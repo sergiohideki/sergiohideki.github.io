@@ -185,6 +185,12 @@
   margin-right: 10px;
 }
 
+.skills-box img {
+  width: 50px; /* Ajuste conforme necessário */
+  height: 50px; /* Ajuste conforme necessário */
+  vertical-align: top;
+}
+
 /* Mobile */
 @media(max-width: 450px) {
 
@@ -231,6 +237,12 @@
 
   .skills-box i {
     font-size: 60px;
+  }
+
+  .skills-box img {
+    width: 60px; /* Ajuste conforme necessário */
+    height: 60px; /* Ajuste conforme necessário */
+    vertical-align: top;
   }
 
 }
